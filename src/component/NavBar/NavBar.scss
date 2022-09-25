@@ -1,0 +1,87 @@
+.search-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #263238 !important;
+}
+
+.search-menu {
+  height: 76px;
+  margin: 0 279px;
+  transition: 1s;
+}
+.search-menu input {
+  outline: none;
+  color: #fff;
+  background-color: #263238;
+}
+.search-menu button {
+  background-color: #263238 !important;
+}
+.search-menu button i {
+  color: #fff;
+  font-size: 16px;
+}
+
+.navbar-container {
+  width: 24px;
+  position: relative;
+}
+.navbar-container button svg {
+  width: 20px;
+}
+.navbar-container span {
+  position: absolute;
+  top: -10px;
+  right: -4px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+}
+.user-btn {
+  outline: none;
+}
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.active-user {
+  position: absolute;
+  top: 58px;
+  right: 0;
+  min-width: 170px;
+  padding: 5px 10px;
+}
+.admin-menu a {
+  color: #292b35;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 5px 0;
+}
+.admin-menu i {
+  margin-right: 5px;
+}
+.count {
+  width: 20px;
+  height: 20px;
+  float: right;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #d9534f;
+}
+/* responsive  */
+@media (max-width: 991px) {
+  .search-menu {
+    margin: 0 20px;
+  }
+}

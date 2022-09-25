@@ -1,0 +1,30 @@
+.dropdown {
+  .show-memu::after {
+    position: absolute;
+    content: "\F105";
+    font-family: Fontawesome;
+    font-size: 16px;
+    top: 0;
+    right: 0;
+    text-align: right;
+  }
+  .show-down::after {
+    position: absolute;
+    content: "\F107";
+    font-family: Fontawesome;
+    font-size: 16px;
+    top: 0;
+    right: 0;
+    text-align: right;
+  }
+}
+@media (max-width: 1025px) {
+  .dropdown {
+    .show-memu::after {
+      display: none;
+    }
+    .show-down::after {
+      display: none;
+    }
+  }
+}

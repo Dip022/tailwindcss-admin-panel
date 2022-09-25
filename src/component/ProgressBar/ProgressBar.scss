@@ -1,0 +1,12 @@
+.progress-bar[data-v-4dd0e00e] {
+  animation: progress-data-v-4dd0e00e 1.5s ease-in-out forwards;
+}
+
+@keyframes progress-data-v-4dd0e00e {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100% !important;
+  }
+}

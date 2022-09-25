@@ -1,0 +1,23 @@
+.wtt-mark {
+  position: relative;
+  min-height: 170px;
+  color: hsla(0, 0%, 100%, 0.15);
+  background-color: #58c9f3;
+}
+
+.wtt-mark::before {
+  position: absolute;
+  content: "\F099";
+  font-family: Fontawesome;
+  top: -27px;
+  left: 40%;
+  font-size: 160px;
+}
+.weather-category {
+  width: 32%;
+  text-align: center;
+  list-style: none;
+  color: #bdbdbd;
+  font-size: 13px;
+  border-right: 1px solid #e6e6e6;
+}
